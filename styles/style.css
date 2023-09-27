@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/roboto.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/roboto.woff") format("woff");
+  }
+
+body{
+    background: url(/public/images/background.png) no-repeat;
+    background-size: 1920px 1080px;
+}
+.persone_img{
+    background: url("/public/images/ellipse-4.svg")no-repeat 30px;
+    background-position: 100px 10px 10px 10px;
+}
+.arrow{
+    position: relative;
+    bottom: 300px;
+    right: 650px;
+    width: 357px;
+    height: 158px;
+    flex-shrink: 0;
+    fill: #090A0C;
+}
+.arrow_h1{
+    position: relative;
+    bottom: 450px;
+    left: 140px;
+    color: var(--neutral-2, #F7F7F7);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 32.4px */
+}
