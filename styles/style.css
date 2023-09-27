@@ -13,6 +13,9 @@
 body{
     background: url(/public/images/background.png) no-repeat;
     background-size: 1920px 1080px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 .persone_img{
     background: url("/public/images/ellipse-4.svg")no-repeat 30px;
@@ -30,11 +33,162 @@ body{
 .arrow_h1{
     position: relative;
     bottom: 450px;
-    left: 140px;
+    left: 120px;
     color: var(--neutral-2, #F7F7F7);
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 135%; /* 32.4px */
+}
+.arrow_p1{
+    position: relative;
+    bottom: 465px;
+    left: 116px;
+    color: var(--neutral-4, #D9D9D9);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
+}
+.gold{
+    position: relative;
+    bottom: 900px;
+    left: 650px;
+    color: #CEB691;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85%; /* 22.95px */
+}
+.voronki{
+    position: relative;
+    bottom: 910px;
+    left: 645px;
+    color: var(--neutral-2, #F7F7F7);
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 54.6px */
+}
+.under_voronki{
+    position: relative;
+    bottom: 910px;
+    left: 645px;
+    color: var(--neutral-3, #EBEBEB);
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 27.2px */
+}
+.get{
+    position: relative;
+    bottom: 910px;
+    left: 645px;
+    display: flex;
+    width: 211px;
+    height: 57px;
+    padding: 15px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-color: #C3A473;
+    border-radius: 7px;
+    background: #C3A473;
+    border-style: solid;
+
+    color: #080707;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 22.95px */
+    transition: 0.5s;
+}
+.get:hover{
+    box-shadow: 0 0 30px orange;
+}
+.get_info{
+    position: relative;
+    bottom: 970px;
+    left: 880px;
+    color: var(--neutral-5, #BFBFBF);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
+}
+.elipse1{
+    position: relative;
+    bottom: 1350px;
+    left: 590px;
+    width: 370px;
+    height: 62.23px;
+    flex-shrink: 0;
+}
+.elipse2{
+    position: relative;
+    bottom: 1295px;
+    left: 315px;
+    width: 150px;
+}
+.elipse3{
+    position: relative;
+    bottom: 1246px;
+    left: 160px;
+    width:50px;
+}
+.vector{
+    position: relative;
+    bottom: 760px;
+    left: 650px;
+    margin-right: 60px;
+}
+.vector:last-child{
+    margin-left:50px ;
+}
+.link1{
+    position: relative;
+    bottom: 765px;
+    left: 620px;
+    color: var(--neutral-2, #F7F7F7);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 20.25px */
+    text-decoration: none;
+}
+.link2{
+    position: relative;
+    bottom: 765px;
+    left: 620px;
+    color: var(--neutral-2, #F7F7F7);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 20.25px */
+    text-decoration: none;
+}
+.link3{
+    position: relative;
+    bottom: 765px;
+    left: 620px;
+    color: var(--neutral-2, #F7F7F7);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; /* 20.25px */
+    text-decoration: none;
+}
+.zagi{
+
 }
